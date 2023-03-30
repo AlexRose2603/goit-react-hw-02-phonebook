@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  padding: 0 15px;
-  margin: 0 auto;
 `;
 export const Title = styled.h1`
   text-align: center;
@@ -19,8 +17,7 @@ export const Section = styled.h2`
 export const Total = styled.div`
   text-align: center;
   border: 2px solid white;
-  margin-left: 205px;
-  margin-bottom: 30px;
+  margin: 30px auto;
   padding: 15px 20px;
   width: 250px;
   font-size: 20px;
