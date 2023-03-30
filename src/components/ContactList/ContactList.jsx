@@ -1,9 +1,7 @@
 // import { nanoid } from 'nanoid';
-
 import React from 'react';
 import {
   Container,
-  Title,
   List,
   Contact,
   Name,
@@ -13,11 +11,6 @@ import {
 export const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <Container>
-      <Title>Contacts</Title>
-      <form>
-        <label>Enter name</label>
-        <input type="text"></input>
-      </form>
       <List>
         {contacts.map(({ id, name, number }) => (
           <Contact key={id}>

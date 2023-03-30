@@ -5,34 +5,36 @@ export const Container = styled.div`
   width: 350px;
 `;
 
-export const Title = styled.h2`
-  text-align: center;
-`;
-
 export const List = styled.ul`
   display: flex;
   gap: 15px;
   flex-direction: column;
+  min-height: 300px;
 `;
 
 export const Name = styled.p`
-  margin-left: 10px;
+  margin-left: 15px;
+  color: white;
 `;
-export const Number = styled.p``;
+export const Number = styled.p`
+  color: white;
+`;
 export const Contact = styled.li`
-  background: rgba(133, 169, 161, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   border: 2px solid white;
-
+  border-radius: 52px;
+  background: #27434f;
+  box-shadow: inset 20px 20px 54px #101b20, inset -20px -20px 54px #3e6b7e;
   display: flex;
   justify-content: space-between;
+  
 `;
 
 export const DeleteBtn = styled.button`
   border-width: 0;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  &:hover,
+  &:focus {
+    backgrount-color: #5b9f56;
+  }
 `;
